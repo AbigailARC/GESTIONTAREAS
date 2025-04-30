@@ -1,0 +1,18 @@
+Lo hicimos en equipo por que no especifico si era en equipo o individual, espero no se moleste de que lo hayamos echo en equipo.
+
+-Hernández Villanueva Eduardo Samir
+-Rodrigues Castro Alejandra Abigail
+-Jiménez Mendoza Ximena Geraldine
+
+Breve explicación del código...
+app.listen(port, () => { ... });: Inicia el servidor y lo hace escuchar en el puerto especificado. La funciPLICACION DE CODIO PARA EL LOCALL 3000
+const express = require('express');: Importa la función express del módulo instalado.
+const app = express();: Crea una instancia de la aplicación Express. Esta instancia es la que usarás para definir rutas, middleware, etc.
+const port = 3000;: Define la variable port con el número del puerto en el que quieres que tu servidor escuche las conexiones entrantes.
+app.get('/', (req, res) => { ... });: Define una ruta para las solicitudes HTTP GET a la raíz del servidor (/).
+req (request): Objeto que contiene información sobre la solicitud del cliente.
+res (response): Objeto que se utiliza para enviar una respuesta al cliente.
+res.send('¡Hola desde Express!');: Envía la cadena de texto "¡Hola desde Express!" como respuesta al cón de callback se ejecuta una vez que el servidor comienza a escuchar, y en este caso, muestra un mensaje en la consola indicando que el servidor está en funcionamiento
+
+ Agrego link por aquí ya que no supe como agragarlo
+https://alejandra-8303240.postman.co/workspace/Alejandra's-Workspace~d233f4e2-c449-42e5-8d7b-2add5db27ee3/collection/44516026-aa02add1-a7f7-4229-acd6-3c2fdf26dd34?action=share&source=copy-link&creator=44516026 

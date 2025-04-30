@@ -1,0 +1,11 @@
+{
+  "name": "admintareas",
+  "version": "1.0.0",
+  "description": "Aplicación de gestión de tareas con MS SQL para crear, leer, actualizar y eliminar tareas almacenadas en una base de datos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
